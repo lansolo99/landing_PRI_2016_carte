@@ -1,0 +1,533 @@
+	/*********/
+	/* RESET */
+	/*********/
+
+	header, nav, footer, figure, section, article {display: block;}
+	html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, em, font, img, strong, sub, sup, dl, dt, dd, ul, ol, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, p {margin: 0;	padding: 0;	border: 0;	outline: 0; text-decoration: none;}
+
+
+
+
+	/*********/
+	/* GENERAL */
+	/*********/
+
+
+	body {
+	  font-family: 'Arial', sans-serif;
+		height: 100%;
+		background-color: white;
+	}
+
+	/*  Modifs gabarit pri  */
+
+	#n2g_conteneur_milieu{
+			padding-bottom: 0px;
+	}
+
+
+	#n2g_zone_milieu{
+	margin-top: 0px;
+	}
+
+	#n2g_zone_centre{
+		padding-left: 0;
+		padding-right: 0;
+		width: 978px !important;
+		float:none;
+		height: auto !important;
+	}
+
+	a{
+	  text-decoration: underline;
+	}
+
+
+
+
+	/*BANDEAU*/
+
+	.wrapper{
+		background-color: #ffffff
+	}
+
+	#bandeau{
+	  position: relative;
+	  text-align: right;
+	  width: 978px;
+	  height: 265px;
+	  background: url('../images/theme.jpg') no-repeat;
+	}
+
+	#bandeau .intro{
+		position: absolute;
+		right:0;
+		top:30px;
+		text-align: center;
+		padding: 30px;
+		padding-top: 25px;
+	  color: #000000;
+		width:402px;
+		height: 152px;
+		background-color: #ffffff;
+	}
+
+	.wrapper.sans_promo	#bandeau .intro{
+		padding-top: 30px;
+		height: 147px;
+	}
+
+
+	#bandeau .intro h1{
+		text-transform: uppercase;
+		color: #d5a23f;
+		font-weight: bold;
+		font-size: 25px;
+		margin-top:0px;
+	}
+
+	#bandeau .intro h2{
+		font-size: 36px;
+		text-transform: uppercase;
+		margin-top: 10px;
+	}
+
+	.wrapper.sans_promo #bandeau .intro h2{
+		font-size: 33px;
+		line-height: 45px;
+		margin-top: 15px;
+	}
+
+	#bandeau .intro h3{
+		text-transform: uppercase;
+		color: #000000;
+		font-weight: bold;
+		margin-top: 11px;
+		font-size: 21px;
+		line-height: 1.5em;
+	}
+
+		#bandeau .intro h3 sup{
+			position: relative;
+			top:-9px;
+			font-size: 0.5em;
+		}
+
+
+	/* ACTIONS */
+
+	#action{
+		text-align: center;
+		background-color: #efebea;
+		padding: 35px 50px 40px 50px;
+	}
+
+	.wrapper.sans_promo #action{
+		padding: 35px 20px 40px 20px;
+	}
+
+	#action .textGroup{
+		font-size:16px;
+		line-height: 24px;
+	}
+
+
+	#action .options{
+		margin: auto;
+		margin-top:0px;
+		width: 770px;
+	}
+
+
+	/*  SECTIONS  */
+	.section {
+		clear: both;
+		padding: 0px;
+		margin-top: 0px;
+	}
+
+	/*  COLUMN SETUP  */
+	.col {
+		display: block;
+		float:left;
+		margin: 1% 0 1% 1.6%;
+		color: #e60028;
+		text-transform: uppercase;
+	}
+	.col:first-child { margin-left: 0; }
+
+
+
+	/*  GROUPING  */
+	.group:before,
+	.group:after {
+		content:"";
+		display:table;
+	}
+	.group:after {
+		clear:both;
+	}
+	.group {
+	    zoom:1; /* For IE 6/7 */
+	}
+
+	/*  GRID */
+
+
+
+
+	/* Options */
+
+	.wrapper.sans_promo #action .options{
+		width: 930px;
+	}
+
+	#action .options .col {
+		margin: 0% 0 0% 0;
+	}
+
+	#action .options .col:first-child { margin-left: 0; }
+
+	#action .options .col.span_1_of_2 {
+		width: 50%;
+		font-size: 25px;
+		color: #000;
+		text-align: left;
+	}
+
+	#action .options .span_1_of_2.e1{
+		width: 384px;
+		border-right:1px solid #c9c9c9;
+	}
+
+	.wrapper.sans_promo	#action .options .col.span_1_of_2.e1{
+		border-right:none;
+		width: 50%;
+	}
+
+	#action .options .span_1_of_2.e2{
+		width: 385px;
+	}
+
+	.wrapper.sans_promo	#action .options .col.span_1_of_2.e2{
+		width: 50%;
+	}
+
+	#action .options .span_1_of_2.e2 .contenu{
+		margin-left: 85px
+	}
+
+	.wrapper.sans_promo	#action .options .span_1_of_2.e2 .contenu{
+		margin-left: 0px
+	}
+
+
+	#action .options .col span.label{
+		display: block;
+		width: 220px;
+		margin-bottom: 15px;
+		text-align: left;
+		text-transform: uppercase;
+		color: #333333;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 28px;
+		padding-left: 50px;
+	}
+
+
+
+	.wrapper.sans_promo #action .options .col span.label{
+		text-align: center;
+		padding-left: 0px;
+		width: auto;
+	}
+
+	#action .options .col.span_1_of_2.e1 span.label{
+		background-image: url('../images/souscription_icon_telephone.png');
+		background-repeat: no-repeat;
+		background-position: 0px 10px;
+	}
+
+	#action .options .col.span_1_of_2.e2 span.label{
+		background-image: url('../images/souscription_icon_agence.png');
+		background-repeat: no-repeat;
+		background-position: 0px 10px;
+	}
+
+	.wrapper.sans_promo #action .options .col.span_1_of_2.e1 span.label, .wrapper.sans_promo #action .options .col.span_1_of_2.e2 span.label {
+		background-image:none;
+		font-weight: bold;
+	}
+
+	.wrapper.sans_promo #action .form{
+		display: block;
+		float: none;
+		margin: auto;
+		width: 320px;
+		height:50px;
+	}
+
+
+	#action .form input[type="text"]{
+		float:left;
+	  padding: 6px 10px;
+	  background-color: #fff;
+	  border-radius: 4px;
+	  box-shadow: none;
+		-webkit-appearance: none;
+	  -moz-appearance: none;
+	  appearance: none;
+		border: 1px solid #cccccc;
+	  outline: 0;
+		margin-bottom: 0;
+		border-radius: 0;
+		height: 46px;
+		width: 242px;
+		border-right: 0;
+		font-size: 15px;
+		color:#777;
+		font-style: italic;
+	}
+
+	#action .cta_group {
+		margin-top:35px;
+		height: 110px;
+		zoom: 1;
+		clear:both;
+	}
+
+	#action .enveloppe_cta, #avantages .enveloppe_cta{
+		margin:60px 0px 30px 0px;
+	}
+
+	#action a.button, #avantages a.button {
+		text-align: left;
+		margin-top: 20px;
+		display: block;
+		width: 305px;
+		margin: auto;
+		font-size: 19px;
+		text-transform: uppercase;
+		color: #ffffff;
+		background-color: #cb2323;
+		border-radius:3px;
+		border-bottom: 2px solid #ad211b;
+		text-decoration: none;
+		padding: 22px 30px;
+		padding-right:70px;
+		cursor: pointer;
+	}
+
+	#avantages a.button{
+		width: 300px;
+		padding: 22px 30px;
+		text-align: center;
+	}
+
+	#action .form a.button.tel{
+		float:left;
+		width: auto;
+		margin-top: 0px;
+		font-size: 16px;
+		border-radius:0px;
+		padding:20px 16px;
+		text-align: center;
+	}
+
+	#action .form a.button.agence{
+		float:left;
+		width: 240px;
+		margin-top: 0px;
+		font-size: 16px;
+		border-radius:0px;
+		padding:20px 40px 20px 20px;
+		text-align: left;
+	}
+
+	.wrapper.sans_promo #action .form a.button.agence{
+		width: 260px;
+	}
+
+	#action a.button:hover, #avantages a.button:hover{
+		background-color: #ad211b;
+	}
+
+	#action a.button span, 	#avantages a.button span {
+		position: relative;
+		width:auto;
+	}
+
+	#action a.button span i.chevron, #avantages a.button span i.chevron{
+		position: absolute;
+		width: 10px;
+		height: 16px;
+		background: url('../images/chevron.png');
+		background-image: -webkit-image-set( url('../images/chevron.png') 1x, url('../images/chevron-2x.png') 2x );
+	  background-size: 100%;
+		right:-40px;
+		top:2px;
+	}
+
+	.wrapper.sans_promo	#action a.button span i.chevron{
+		right:-70px;
+		top:0px;
+	}
+
+
+
+
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	  #action a.button span i.chevron{
+			top:23px;
+		}
+	}
+
+
+ 	/*AVANTAGES*/
+
+	#avantages{
+		text-align: center;
+		padding: 40px 50px;
+		background-color: #ffffff;
+	}
+
+	#avantages .textGroup.chapo {
+		font-size:18px;
+		line-height: 30px;
+		margin-bottom: 50px;
+	}
+
+	#avantages .section{
+		height:170px;
+	}
+
+	#avantages .section{
+		margin-top: 0px;
+	}
+
+	#avantages .section .col{
+		margin: 0% 0 0% 0%;
+		text-align: left;
+	}
+
+	#avantages .section .col.span_1_of_2 .contenu h4{
+		font-size: 16px;
+		color: #000000;
+		line-height: 22px;
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+
+	#avantages .section .col.span_1_of_2 .contenu h4 span{
+		color: #d5a23f;
+	}
+
+	#avantages .section .col.span_1_of_2 .contenu h4 span sup{
+		color: #d5a23f;
+		font-weight: normal;
+		vertical-align: top;
+		position: relative;
+		font-size: 10px;
+		top:-4px;
+	}
+
+	#avantages .section .col.span_1_of_2 .contenu span.description{
+		display: block;
+		text-transform:none;
+		font-size: 14px;
+		color: #333333;
+		margin-top: 10px;
+    line-height: 22px;
+		}
+
+	#avantages .section .col.span_1_of_2 .contenu span.description sup{
+		vertical-align: top;
+		position: relative;
+		font-size: 8px;
+		top:-1px;
+	}
+
+  #avantages .cta_group{
+		height: auto;
+		margin-top: 0px;
+	}
+
+	#avantages .section .col.span_1_of_2{
+		width: 50%;
+	}
+
+	#avantages .section .col.span_1_of_2 .contenu{
+		margin-left:70px;
+		height:100px;
+	}
+
+	#avantages .section .col.span_1_of_2.e1 .contenu, #avantages .section .col.span_1_of_2.e2 .contenu{
+		margin-bottom: 25px;
+	}
+
+	#avantages .section .col.span_1_of_2.e2 .contenu{
+		margin-left:100px;
+	}
+
+	#avantages .section .col.span_1_of_2.e1{
+		background: url('../images/picto_serenite.png');
+		background-image: -webkit-image-set( url('../images/picto_serenite.png') 1x, url('../images/picto_serenite-2x.png') 2x );
+		background-repeat: no-repeat;
+		background-position: 0px 25px;
+		width: 438px;
+		border-right:1px solid #c9c9c9;
+	}
+
+	#avantages .section .col.span_1_of_2.e2{
+		background: url('../images/picto_economies.png');
+		background-image: -webkit-image-set( url('../images/picto_economies.png') 1x, url('../images/picto_economies-2x.png') 2x );
+		background-repeat: no-repeat;
+		background-position: 30px 25px;
+	}
+
+
+
+	/*MENTIONS LEGALES*/
+
+	#mentions_legales {
+	  padding: 30px;
+		padding-bottom: 10px;
+		font-size: 10px;
+	  color: #888888;
+		background: #ffffff;
+	}
+
+	#mentions_legales a{
+	  color: #666666;
+	}
+
+	#mentions_legales .mentions{
+		counter-reset: mention_count;
+	  margin-bottom: 10px;
+	}
+
+	#mentions_legales .mentions dt {
+		position: relative;
+	  padding: 0px 0 7px 0;
+	  padding-left: 25px;
+	  line-height: 15px;
+	}
+
+	#mentions_legales .mentions dt span{
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    *top:-5px;
+	    font-size: 10px;
+	}
+
+	#mentions_legales .mentions dt.last {
+	  margin-bottom: 0;
+	}
+
+
+		#mentions_legales .mentions.small{
+			font-size: 12px;
+			line-height: 16px;
+		}

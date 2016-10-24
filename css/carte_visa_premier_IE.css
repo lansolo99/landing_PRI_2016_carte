@@ -1,0 +1,5 @@
+#action .form input[type="text"] {
+	float:left;
+	padding: 19px 10px;
+	height: 20px;
+}
