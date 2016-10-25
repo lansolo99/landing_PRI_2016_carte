@@ -80,10 +80,17 @@
 
 	#bandeau .intro h1{
 		text-transform: uppercase;
-		color: #d5a23f;
+		color: #e60028;
 		font-weight: bold;
 		font-size: 25px;
 		margin-top:0px;
+	}
+
+	#bandeau .intro h1 sup{
+		font-size: 0.5em;
+		vertical-align: top;
+		position: relative;
+		top:2px;
 	}
 
 	#bandeau .intro h2{
@@ -322,6 +329,7 @@
 		width: 300px;
 		padding: 22px 30px;
 		text-align: center;
+		font-weight: bold;
 	}
 
 	#action .form a.button.tel{
@@ -393,7 +401,7 @@
 
 	#avantages .textGroup.chapo {
 		font-size:18px;
-		line-height: 30px;
+		line-height: 35px;
 		margin-bottom: 50px;
 	}
 
