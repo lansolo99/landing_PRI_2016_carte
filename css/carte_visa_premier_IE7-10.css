@@ -1,7 +1,7 @@
-#action a.button span i.chevron{
+#n2g_carte_visa_action a.n2g_carte_visa_button span i.chevron{
 	top:2px;
 }
 
-#action a.button.agence span i.chevron{
+#n2g_carte_visa_action a.n2g_carte_visa_button.agence span i.chevron{
 	top:0px;
 }

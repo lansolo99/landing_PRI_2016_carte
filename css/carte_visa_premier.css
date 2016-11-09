@@ -2,7 +2,7 @@
 	/* RESET */
 	/*********/
 
-	header, nav, footer, figure, section, article {display: block;}
+	header, nav, footer, figure, n2g_carte_visa_section, article {display: block;}
 	html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, em, font, img, strong, sub, sup, dl, dt, dd, ul, ol, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, p {margin: 0;	padding: 0;	border: 0;	outline: 0; text-decoration: none;}
 
 
@@ -47,11 +47,11 @@
 
 	/*BANDEAU*/
 
-	.wrapper{
+	.n2g_carte_visa_wrapper{
 		background-color: #ffffff
 	}
 
-	#bandeau{
+	#n2g_carte_visa_bandeau{
 	  position: relative;
 	  text-align: right;
 	  width: 978px;
@@ -59,7 +59,7 @@
 	  background: url('../images/theme.jpg') no-repeat;
 	}
 
-	#bandeau .intro{
+	#n2g_carte_visa_bandeau .n2g_carte_visa_intro{
 		position: absolute;
 		right:0;
 		top:30px;
@@ -72,13 +72,13 @@
 		background-color: #ffffff;
 	}
 
-	.wrapper.sans_promo	#bandeau .intro{
+	.n2g_carte_visa_wrapper.sans_promo	#n2g_carte_visa_bandeau .n2g_carte_visa_intro{
 		padding-top: 30px;
 		height: 147px;
 	}
 
 
-	#bandeau .intro h1{
+	#n2g_carte_visa_bandeau .n2g_carte_visa_intro h1{
 		text-transform: uppercase;
 		color: #e60028;
 		font-weight: bold;
@@ -86,26 +86,26 @@
 		margin-top:0px;
 	}
 
-	#bandeau .intro h1 sup{
+	#n2g_carte_visa_bandeau .n2g_carte_visa_intro h1 sup{
 		font-size: 0.5em;
 		vertical-align: top;
 		position: relative;
 		top:2px;
 	}
 
-	#bandeau .intro h2{
+	#n2g_carte_visa_bandeau .n2g_carte_visa_intro h2{
 		font-size: 36px;
 		text-transform: uppercase;
 		margin-top: 10px;
 	}
 
-	.wrapper.sans_promo #bandeau .intro h2{
+	.n2g_carte_visa_wrapper.sans_promo #n2g_carte_visa_bandeau .n2g_carte_visa_intro h2{
 		font-size: 33px;
 		line-height: 45px;
 		margin-top: 15px;
 	}
 
-	#bandeau .intro h3{
+	#n2g_carte_visa_bandeau .n2g_carte_visa_intro h3{
 		text-transform: uppercase;
 		color: #000000;
 		font-weight: bold;
@@ -114,40 +114,40 @@
 		line-height: 1.5em;
 	}
 
-		#bandeau .intro h3 sup{
+		#n2g_carte_visa_bandeau .n2g_carte_visa_intro h3 sup{
 			position: relative;
 			top:-9px;
 			font-size: 0.5em;
 		}
 
 
-	/* ACTIONS */
+	/* n2g_carte_visa_actionS */
 
-	#action{
+	#n2g_carte_visa_action{
 		text-align: center;
 		background-color: #efebea;
 		padding: 35px 50px 40px 50px;
 	}
 
-	.wrapper.sans_promo #action{
-		padding: 35px 20px 40px 20px;
+	.n2g_carte_visa_wrapper.sans_promo #n2g_carte_visa_action{
+		padding: 35px 20px 50px 20px;
 	}
 
-	#action .textGroup{
+	#n2g_carte_visa_action .text_group{
 		font-size:16px;
 		line-height: 24px;
 	}
 
 
-	#action .options{
+	#n2g_carte_visa_action .n2g_carte_visa_options{
 		margin: auto;
 		margin-top:0px;
 		width: 770px;
 	}
 
 
-	/*  SECTIONS  */
-	.section {
+	/*  n2g_carte_visa_sectionS  */
+	.n2g_carte_visa_section {
 		clear: both;
 		padding: 0px;
 		margin-top: 0px;
@@ -165,15 +165,11 @@
 
 
 
-	/*  GROUPING  */
-	.group:before,
-	.group:after {
-		content:"";
-		display:table;
-	}
-	.group:after {
+
+	.group .n2g_carte_visa_clearForIE7{
 		clear:both;
 	}
+
 	.group {
 	    zoom:1; /* For IE 6/7 */
 	}
@@ -183,52 +179,52 @@
 
 
 
-	/* Options */
+	/* n2g_carte_visa_options */
 
-	.wrapper.sans_promo #action .options{
+	.n2g_carte_visa_wrapper.sans_promo #n2g_carte_visa_action .n2g_carte_visa_options{
 		width: 930px;
 	}
 
-	#action .options .col {
+	#n2g_carte_visa_action .n2g_carte_visa_options .col {
 		margin: 0% 0 0% 0;
 	}
 
-	#action .options .col:first-child { margin-left: 0; }
+	#n2g_carte_visa_action .n2g_carte_visa_options .col:first-child { margin-left: 0; }
 
-	#action .options .col.span_1_of_2 {
+	#n2g_carte_visa_action .n2g_carte_visa_options .col.span_1_of_2 {
 		width: 50%;
 		font-size: 25px;
 		color: #000;
 		text-align: left;
 	}
 
-	#action .options .span_1_of_2.e1{
+	#n2g_carte_visa_action .n2g_carte_visa_options .span_1_of_2.e1{
 		width: 384px;
 		border-right:1px solid #c9c9c9;
 	}
 
-	.wrapper.sans_promo	#action .options .col.span_1_of_2.e1{
+	.n2g_carte_visa_wrapper.sans_promo	#n2g_carte_visa_action .n2g_carte_visa_options .col.span_1_of_2.e1{
 		border-right:none;
 		width: 50%;
 	}
 
-	#action .options .span_1_of_2.e2{
+	#n2g_carte_visa_action .n2g_carte_visa_options .span_1_of_2.e2{
 		width: 385px;
 	}
 
-	.wrapper.sans_promo	#action .options .col.span_1_of_2.e2{
+	.n2g_carte_visa_wrapper.sans_promo	#n2g_carte_visa_action .n2g_carte_visa_options .col.span_1_of_2.e2{
 		width: 50%;
 	}
 
-	#action .options .span_1_of_2.e2 .contenu{
+	#n2g_carte_visa_action .n2g_carte_visa_options .span_1_of_2.e2 .n2g_carte_visa_contenu{
 		margin-left: 85px
 	}
 
-	.wrapper.sans_promo	#action .options .span_1_of_2.e2 .contenu{
+	.n2g_carte_visa_wrapper.sans_promo	#n2g_carte_visa_action .n2g_carte_visa_options .span_1_of_2.e2 .n2g_carte_visa_contenu{
 		margin-left: 0px
 	}
 
-	#action .options .col span.label{
+	#n2g_carte_visa_action .n2g_carte_visa_options .col span.n2g_carte_visa_label{
 		display: block;
 		width: 220px;
 		margin-bottom: 15px;
@@ -241,7 +237,7 @@
 		padding-left: 50px;
 	}
 
-	.wrapper.sans_promo #action .options .col span.label{
+	.n2g_carte_visa_wrapper.sans_promo #n2g_carte_visa_action .n2g_carte_visa_options .col span.n2g_carte_visa_label{
 		text-align: center;
 		padding-left: 0px;
 		width: auto;
@@ -249,24 +245,24 @@
 		margin-bottom: 20px;
 	}
 
-	#action .options .col.span_1_of_2.e1 span.label{
+	#n2g_carte_visa_action .n2g_carte_visa_options .col.span_1_of_2.e1 span.n2g_carte_visa_label{
 		background-image: url('../images/souscription_icon_telephone.png');
 		background-repeat: no-repeat;
 		background-position: 0px 10px;
 	}
 
-	#action .options .col.span_1_of_2.e2 span.label{
+	#n2g_carte_visa_action .n2g_carte_visa_options .col.span_1_of_2.e2 span.n2g_carte_visa_label{
 		background-image: url('../images/souscription_icon_agence.png');
 		background-repeat: no-repeat;
 		background-position: 0px 10px;
 	}
 
-	.wrapper.sans_promo #action .options .col.span_1_of_2.e1 span.label, .wrapper.sans_promo #action .options .col.span_1_of_2.e2 span.label {
+	.n2g_carte_visa_wrapper.sans_promo #n2g_carte_visa_action .n2g_carte_visa_options .col.span_1_of_2.e1 span.n2g_carte_visa_label, .n2g_carte_visa_wrapper.sans_promo #n2g_carte_visa_action .n2g_carte_visa_options .col.span_1_of_2.e2 span.n2g_carte_visa_label {
 		background-image:none;
 		font-weight: bold;
 	}
 
-	.wrapper.sans_promo #action .form{
+	.n2g_carte_visa_wrapper.sans_promo #n2g_carte_visa_action .n2g_carte_visa_form{
 		display: block;
 		float: none;
 		margin: auto;
@@ -274,8 +270,15 @@
 		height:50px;
 	}
 
+	#n2g_carte_visa_action span.n2g_carte_visa_horaires{
+		font-size: 12px;
+		text-transform:none;
+		display:block;
+		padding-top: 10px;
+		clear:both;
+	}
 
-	#action .form input[type="text"]{
+	#n2g_carte_visa_action .n2g_carte_visa_form input[type="text"]{
 		float:left;
 	  padding: 6px 10px;
 	  background-color: #fff;
@@ -296,18 +299,18 @@
 		font-style: italic;
 	}
 
-	#action .cta_group {
+	#n2g_carte_visa_action .cta_group {
 		margin-top:35px;
 		height: 110px;
 		zoom: 1;
 		clear:both;
 	}
 
-	#action .enveloppe_cta, #avantages .enveloppe_cta{
+	#n2g_carte_visa_action .enveloppe_cta, #n2g_carte_visa_avantages .enveloppe_cta{
 		margin:60px 0px 30px 0px;
 	}
 
-	#action a.button, #avantages a.button {
+	#n2g_carte_visa_action a.n2g_carte_visa_button, #n2g_carte_visa_avantages a.n2g_carte_visa_button {
 		text-align: left;
 		margin-top: 20px;
 		display: block;
@@ -325,14 +328,14 @@
 		cursor: pointer;
 	}
 
-	#avantages a.button{
+	#n2g_carte_visa_avantages a.n2g_carte_visa_button{
 		width: 300px;
 		padding: 22px 30px;
 		text-align: center;
 		font-weight: bold;
 	}
 
-	#action .form a.button.tel{
+	#n2g_carte_visa_action .n2g_carte_visa_form a.n2g_carte_visa_button.tel{
 		float:left;
 		width: auto;
 		margin-top: 0px;
@@ -342,7 +345,7 @@
 		text-align: center;
 	}
 
-	#action .form a.button.agence{
+	#n2g_carte_visa_action .n2g_carte_visa_form a.n2g_carte_visa_button.agence{
 		float:left;
 		width: 240px;
 		margin-top: 0px;
@@ -352,20 +355,20 @@
 		text-align: left;
 	}
 
-	.wrapper.sans_promo #action .form a.button.agence{
+	.n2g_carte_visa_wrapper.sans_promo #n2g_carte_visa_action .n2g_carte_visa_form a.n2g_carte_visa_button.agence{
 		width: 260px;
 	}
 
-	#action a.button:hover, #avantages a.button:hover{
+	#n2g_carte_visa_action a.button:hover, #n2g_carte_visa_avantages a.n2g_carte_visa_button:hover{
 		background-color: #ad211b;
 	}
 
-	#action a.button span, 	#avantages a.button span {
+	#n2g_carte_visa_action a.n2g_carte_visa_button span, 	#n2g_carte_visa_avantages a.n2g_carte_visa_button span {
 		position: relative;
 		width:auto;
 	}
 
-	#action a.button span i.chevron, #avantages a.button span i.chevron{
+	#n2g_carte_visa_action a.n2g_carte_visa_button span i.chevron, #n2g_carte_visa_avantages a.n2g_carte_visa_button span i.chevron{
 		position: absolute;
 		width: 10px;
 		height: 16px;
@@ -376,7 +379,7 @@
 		top:2px;
 	}
 
-	.wrapper.sans_promo	#action a.button span i.chevron{
+	.n2g_carte_visa_wrapper.sans_promo	#n2g_carte_visa_action a.n2g_carte_visa_button span i.chevron{
 		right:-70px;
 		top:0px;
 	}
@@ -385,40 +388,44 @@
 
 
 	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-	  #action a.button span i.chevron{
+	  #n2g_carte_visa_action a.n2g_carte_visa_button span i.chevron{
 			top:23px;
 		}
 	}
 
 
- 	/*AVANTAGES*/
+ 	/*n2g_carte_visa_avantages*/
 
-	#avantages{
+	#n2g_carte_visa_avantages{
 		text-align: center;
-		padding: 40px 50px;
+		padding: 40px 35px;
 		background-color: #ffffff;
 	}
 
-	#avantages .textGroup.chapo {
+	#n2g_carte_visa_avantages .text_group.chapo {
 		font-size:18px;
 		line-height: 35px;
 		margin-bottom: 50px;
 	}
 
-	#avantages .section{
+	#n2g_carte_visa_avantages .text_group.chapo sup{
+		font-size:10px;
+	}
+
+	#n2g_carte_visa_avantages .n2g_carte_visa_section{
 		height:170px;
 	}
 
-	#avantages .section{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section{
 		margin-top: 0px;
 	}
 
-	#avantages .section .col{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col{
 		margin: 0% 0 0% 0%;
 		text-align: left;
 	}
 
-	#avantages .section .col.span_1_of_2 .contenu h4{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2 .n2g_carte_visa_contenu h4{
 		font-size: 16px;
 		color: #000000;
 		line-height: 22px;
@@ -426,11 +433,11 @@
 		font-weight: bold;
 	}
 
-	#avantages .section .col.span_1_of_2 .contenu h4 span{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2 .n2g_carte_visa_contenu h4 span{
 		color: #d5a23f;
 	}
 
-	#avantages .section .col.span_1_of_2 .contenu h4 span sup{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2 .n2g_carte_visa_contenu h4 span sup{
 		color: #d5a23f;
 		font-weight: normal;
 		vertical-align: top;
@@ -439,45 +446,46 @@
 		top:-4px;
 	}
 
-	#avantages .section .col.span_1_of_2 .contenu span.description{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2 .n2g_carte_visa_contenu span.n2g_carte_visa_description{
 		display: block;
 		text-transform:none;
 		font-size: 14px;
 		color: #333333;
 		margin-top: 10px;
+		padding-right: 12px;
     line-height: 22px;
 		}
 
-	#avantages .section .col.span_1_of_2 .contenu span.description sup{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2 .n2g_carte_visa_contenu span.n2g_carte_visa_description sup{
 		vertical-align: top;
 		position: relative;
 		font-size: 8px;
 		top:-1px;
 	}
 
-  #avantages .cta_group{
+  #n2g_carte_visa_avantages .cta_group{
 		height: auto;
 		margin-top: 0px;
 	}
 
-	#avantages .section .col.span_1_of_2{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2{
 		width: 50%;
 	}
 
-	#avantages .section .col.span_1_of_2 .contenu{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2 .n2g_carte_visa_contenu{
 		margin-left:70px;
 		height:100px;
 	}
 
-	#avantages .section .col.span_1_of_2.e1 .contenu, #avantages .section .col.span_1_of_2.e2 .contenu{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2.e1 .n2g_carte_visa_contenu, #n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2.e2 .n2g_carte_visa_contenu{
 		margin-bottom: 25px;
 	}
 
-	#avantages .section .col.span_1_of_2.e2 .contenu{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2.e2 .n2g_carte_visa_contenu{
 		margin-left:100px;
 	}
 
-	#avantages .section .col.span_1_of_2.e1{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2.e1{
 		background: url('../images/picto_serenite.png');
 		background-image: -webkit-image-set( url('../images/picto_serenite.png') 1x, url('../images/picto_serenite-2x.png') 2x );
 		background-repeat: no-repeat;
@@ -486,7 +494,7 @@
 		border-right:1px solid #c9c9c9;
 	}
 
-	#avantages .section .col.span_1_of_2.e2{
+	#n2g_carte_visa_avantages .n2g_carte_visa_section .col.span_1_of_2.e2{
 		background: url('../images/picto_economies.png');
 		background-image: -webkit-image-set( url('../images/picto_economies.png') 1x, url('../images/picto_economies-2x.png') 2x );
 		background-repeat: no-repeat;
@@ -509,19 +517,19 @@
 	  color: #666666;
 	}
 
-	#mentions_legales .mentions{
+	#mentions_legales .n2g_carte_visa_mentions{
 		counter-reset: mention_count;
 	  margin-bottom: 10px;
 	}
 
-	#mentions_legales .mentions dt {
+	#mentions_legales .n2g_carte_visa_mentions dt {
 		position: relative;
 	  padding: 0px 0 7px 0;
 	  padding-left: 25px;
 	  line-height: 15px;
 	}
 
-	#mentions_legales .mentions dt span{
+	#mentions_legales .n2g_carte_visa_mentions dt span{
 	    position: absolute;
 	    left: 0;
 	    top: 0;
@@ -529,12 +537,12 @@
 	    font-size: 10px;
 	}
 
-	#mentions_legales .mentions dt.last {
+	#mentions_legales .n2g_carte_visa_mentions dt.last {
 	  margin-bottom: 0;
 	}
 
 
-		#mentions_legales .mentions.small{
+		#mentions_legales .n2g_carte_visa_mentions.small{
 			font-size: 12px;
 			line-height: 16px;
 		}
