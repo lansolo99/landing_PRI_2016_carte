@@ -5,3 +5,8 @@
 #n2g_carte_visa_action a.n2g_carte_visa_button.agence span i.chevron{
 	top:0px;
 }
+
+	#n2g_carte_visa_avantages .text_group.chapo {
+		font-size: 17px;
+		line-height: 30px;
+	}
