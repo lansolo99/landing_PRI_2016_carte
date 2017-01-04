@@ -334,7 +334,17 @@
 		padding: 22px 30px;
 		text-align: center;
 		font-weight: bold;
+		margin-bottom: 10px;
 	}
+
+	#n2g_carte_visa_avantages .n2g_carte_visa_mention_asterisque{
+		width: 320px;
+		margin: auto;
+		color: #888888;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
 
 	#n2g_carte_visa_avantages a.n2g_carte_visa_button span{
 		top:3px;
